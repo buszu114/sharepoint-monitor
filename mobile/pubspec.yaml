@@ -1,0 +1,14 @@
+name: sharepoint_monitor
+version: 0.1.0+1
+description: Odczyt historii zmian z autoryzowanego monitora SharePoint.
+publish_to: none
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.3.0
+  flutter_secure_storage: ^9.2.4
+  url_launcher: ^6.3.1
+flutter:
+  uses-material-design: true
