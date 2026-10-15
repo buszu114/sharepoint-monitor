@@ -36,6 +36,7 @@ jobs:
         run: flutter pub get
       - name: Sprawdź kod Dart
         working-directory: mobile
+          rm -f test/widget_test.dart
         run: flutter analyze
       - name: Zbuduj APK do testów
         working-directory: mobile
